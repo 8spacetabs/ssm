@@ -37,7 +37,7 @@ static const char *tags[] = {
 };
 
 //
-// print_msgs - searches for and prints messages tagged with tags from the tags array
+// print_msgs - searches for and prints comments containing tags, returns 0 if none found, nonzero otherwise
 //
 static int print_msgs(const char *tag, long taglen, char *src, long srclen) {
         int i, j, line_count = 1;
