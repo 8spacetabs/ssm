@@ -1,14 +1,14 @@
 CC=cc
 CFLAGS=-std=c99 -o ssm
 
-ssm: main.c ansicodes.h
+tags: main.c ansicodes.h
 	@$(CC) $(CFLAGS) main.c
 
 install:
-	@install -s ssm /bin/ssm
+	@install -s ssm /bin/tags
 
 clean:
-	@rm ssm
+	@rm tags
 
 uninstall:
-	@rm /bin/ssm
+	@rm /bin/tags

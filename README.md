@@ -1,11 +1,11 @@
-# Simple Source Manager
+# Tags
 
 ## Installing:
 `make && sudo make install`
 ## Basic usage:
-`ssm <source code file(s)>`
+`tags <source code file(s)>`
 
-SSM searches source code files for comments which include codetags,
+Tags searches source code files for comments which include codetags,
 these are character sequences like `@TODO` and `@FIXME`. When a codetag
 is found the comment it is included in is written to stdout along with the
 number of the line it was found on.
